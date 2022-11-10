@@ -1,0 +1,11 @@
+.dash{
+    /* border: solid black; */
+    height: 100vh;
+    display: flex;
+    /* overflow: auto; */
+    width: fit-content;
+    width: 100vw;
+    /* background-color: ; */
+    /* background-color: black; */
+    /* background-color: aqua; */
+}

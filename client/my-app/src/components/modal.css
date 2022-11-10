@@ -1,0 +1,28 @@
+.modal{
+    position: absolute;
+    top:50%;
+    left : 50%;
+    z-index: 1000;
+    background-color: azure;
+    transform: translate(-50%,-50%);
+    padding: 10em;
+    border-radius: 1em;
+}
+.overlay{
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+.close{
+    position: absolute;
+    top:0;
+    right:0;
+    border-radius: 1em;
+    width:fit-content;
+    border: none;
+    background-color: azure;
+}

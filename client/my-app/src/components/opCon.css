@@ -1,0 +1,52 @@
+.openConv{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.sm{
+    flex-grow: 1;
+    overflow: auto;
+    /* display: block; */
+}
+.chats{
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    /* overflow: inherit; */
+    /* background-color: black; */
+}
+.userInp{
+    display: flex;
+    margin: .5em;
+    /* padding: 1em; */
+}
+.typeHere{
+    resize: none;
+    flex-grow: 1;
+    height: 60px;
+    font-size: 1.5em;
+    
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    margin-bottom: 1.75em;
+}
+.msgReceipt{
+    font-size:small;
+}
+.me{
+    align-self: flex-end;
+}
+.mainMsg{
+    padding: 0.5em;
+    border: solid ;
+    border-radius: 1.25em;
+    white-space:pre-wrap;
+}
+.notme{
+    align-self: flex-start;
+}

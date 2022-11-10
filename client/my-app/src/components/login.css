@@ -1,0 +1,17 @@
+.full{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+/* .cont{
+    height: fit-content;
+    width: fit-content;
+    background-color: aqua;
+} */
+.logForm{
+    border:  solid black;
+    width: 20em;
+    padding: 1.5em;
+}
